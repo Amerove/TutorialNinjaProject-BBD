@@ -1,0 +1,167 @@
+# Created at 2024-02-04T23:57:55.116
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2024-02-04T23:57:55.872
+Unexpected IOException with stream:   [32mAnd [0m[32mclick on the login button[0m                       [90m# stepdefinitions.Login.click_on_the_login_button()[0m
+
+
+# Created at 2024-02-04T23:57:55.976
+Unexpected IOException with stream:   [32mThen [0m[32mUser should login successfully[0m                 [90m# stepdefinitions.Login.user_should_login_successfully()[0m
+
+
+# Created at 2024-02-04T23:57:56.268
+Unexpected IOException: 6,1,User Login,Login with valid credentials #2(User Login),null,null,null
+
+
+# Created at 2024-02-04T23:57:56.268
+Unexpected IOException: 5,1,User Login,Login with valid credentials #3(User Login),null,null,null
+
+
+# Created at 2024-02-04T23:57:56.284
+Unexpected IOException with stream: 
+@all @login @validcredentials @smoke @regression
+Scenario Outline: Login with valid credentials        [90m# test/resources/features/Login.feature:18[0m
+
+
+# Created at 2024-02-04T23:58:03.247
+Unexpected IOException with stream:   [32mGiven [0m[32mUser navigates to login page[0m                  [90m# stepdefinitions.Login.user_navigates_to_login_page()[0m
+
+
+# Created at 2024-02-04T23:58:03.509
+Unexpected IOException with stream:   [32mWhen [0m[32mUser enters valid email [0m[32m[1mamotooricap3@gmail.com[0m [90m# stepdefinitions.Login.user_enters_valid_email(java.lang.String)[0m
+
+
+# Created at 2024-02-04T23:58:03.702
+Unexpected IOException with stream:   [32mAnd [0m[32mEnters valid password [0m[32m[1m12345[0m                     [90m# stepdefinitions.Login.enters_valid_password(java.lang.String)[0m
+
+
+# Created at 2024-02-04T23:58:05.196
+Unexpected IOException with stream:   [32mAnd [0m[32mclick on the login button[0m                       [90m# stepdefinitions.Login.click_on_the_login_button()[0m
+
+
+# Created at 2024-02-04T23:58:05.290
+Unexpected IOException with stream:   [32mThen [0m[32mUser should login successfully[0m                 [90m# stepdefinitions.Login.user_should_login_successfully()[0m
+
+
+# Created at 2024-02-04T23:58:05.480
+Unexpected IOException: 6,1,User Login,Login with valid credentials #3(User Login),null,null,null
+
+
+# Created at 2024-02-04T23:58:05.481
+Unexpected IOException: 5,1,User Login,Login with invalid credentials(User Login),null,null,null
+
+
+# Created at 2024-02-04T23:58:05.487
+Unexpected IOException with stream: 
+@all @login @ivalidcredentials @smoke @regression
+Scenario: Login with invalid credentials        [90m# test/resources/features/Login.feature:22[0m
+
+
+# Created at 2024-02-04T23:58:13.645
+Unexpected IOException with stream:   [32mGiven [0m[32mUser navigates to login page[0m            [90m# stepdefinitions.Login.user_navigates_to_login_page()[0m
+
+
+# Created at 2024-02-04T23:58:13.930
+Unexpected IOException with stream:   [32mWhen [0m[32mUser enters invalid email[0m                [90m# stepdefinitions.Login.user_enters_invalid_email()[0m
+
+
+# Created at 2024-02-04T23:58:14.134
+Unexpected IOException with stream:   [32mAnd [0m[32mEnters invalid password [0m[32m[1m"Amer10"[0m          [90m# stepdefinitions.Login.enters_invalid_password(java.lang.String)[0m
+
+
+# Created at 2024-02-04T23:58:14.813
+Unexpected IOException with stream:   [32mAnd [0m[32mclick on the login button[0m                 [90m# stepdefinitions.Login.click_on_the_login_button()[0m
+
+
+# Created at 2024-02-04T23:58:14.875
+Unexpected IOException with stream:   [32mThen [0m[32mUser should get a proper warning message[0m [90m# stepdefinitions.Login.user_should_get_a_proper_warning_message()[0m
+
+
+# Created at 2024-02-04T23:58:15.088
+Unexpected IOException: 6,1,User Login,Login with invalid credentials(User Login),null,null,null
+
+
+# Created at 2024-02-04T23:58:15.088
+Unexpected IOException: 5,1,User Login,Login with valid email and invalid password(User Login),null,null,null
+
+
+# Created at 2024-02-04T23:58:15.088
+Unexpected IOException with stream: 
+@all @login @validemailandinvalidpassword @regression
+Scenario: Login with valid email and invalid password  [90m# test/resources/features/Login.feature:30[0m
+
+
+# Created at 2024-02-04T23:58:20.675
+Unexpected IOException with stream:   [32mGiven [0m[32mUser navigates to login page[0m                   [90m# stepdefinitions.Login.user_navigates_to_login_page()[0m
+
+
+# Created at 2024-02-04T23:58:20.921
+Unexpected IOException with stream:   [32mWhen [0m[32mUser enters valid email [0m[32m[1m"a0sandra0h3@gmail.com"[0m [90m# stepdefinitions.Login.user_enters_valid_email(java.lang.String)[0m
+
+
+# Created at 2024-02-04T23:58:21.095
+Unexpected IOException with stream:   [32mAnd [0m[32mEnters invalid password [0m[32m[1m"Amer14"[0m                 [90m# stepdefinitions.Login.enters_invalid_password(java.lang.String)[0m
+
+
+# Created at 2024-02-04T23:58:21.637
+Unexpected IOException with stream:   [32mAnd [0m[32mclick on the login button[0m                        [90m# stepdefinitions.Login.click_on_the_login_button()[0m
+
+
+# Created at 2024-02-04T23:58:21.715
+Unexpected IOException with stream:   [32mThen [0m[32mUser should get a proper warning message[0m        [90m# stepdefinitions.Login.user_should_get_a_proper_warning_message()[0m
+
+
+# Created at 2024-02-04T23:58:21.908
+Unexpected IOException: 6,1,User Login,Login with valid email and invalid password(User Login),null,null,null
+
+
+# Created at 2024-02-04T23:58:21.909
+Unexpected IOException: 5,1,User Login,Login with invalid email and valid password(User Login),null,null,null
+
+
+# Created at 2024-02-04T23:58:21.915
+Unexpected IOException with stream: 
+@all @login @invalidemailandvalidpassword @regression
+Scenario: Login with invalid email and valid password [90m# test/resources/features/Login.feature:38[0m
+
+
+# Created at 2024-02-04T23:58:28.436
+Unexpected IOException with stream:   [32mGiven [0m[32mUser navigates to login page[0m                  [90m# stepdefinitions.Login.user_navigates_to_login_page()[0m
+
+
+# Created at 2024-02-04T23:58:28.742
+Unexpected IOException with stream:   [32mWhen [0m[32mUser enters invalid email[0m                      [90m# stepdefinitions.Login.user_enters_invalid_email()[0m
+
+
+# Created at 2024-02-04T23:58:28.927
+Unexpected IOException with stream:   [32mAnd [0m[32mEnters valid password [0m[32m[1m"Amer1406!"[0m               [90m# stepdefinitions.Login.enters_valid_password(java.lang.String)[0m
+
+
+# Created at 2024-02-04T23:58:29.593
+Unexpected IOException with stream:   [32mAnd [0m[32mclick on the login button[0m                       [90m# stepdefinitions.Login.click_on_the_login_button()[0m
+
+
+# Created at 2024-02-04T23:58:29.670
+Unexpected IOException with stream:   [32mThen [0m[32mUser should get a proper warning message[0m       [90m# stepdefinitions.Login.user_should_get_a_proper_warning_message()[0m
+
+
+# Created at 2024-02-04T23:58:29.865
+Unexpected IOException: 6,1,User Login,Login with invalid email and valid password(User Login),null,null,null
+
+
+# Created at 2024-02-04T23:58:29.866
+Unexpected IOException: 5,1,User Login,Login without providing any credentials(User Login),null,null,null
+
+
+# Created at 2024-02-04T23:58:29.879
+Unexpected IOException with stream: 
+@all @login @nocredentials @regression
+Scenario: Login without providing any credentials [90m# test/resources/features/Login.feature:46[0m
+
+
